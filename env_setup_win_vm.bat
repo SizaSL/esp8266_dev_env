@@ -7,5 +7,8 @@ choco install -y virtualbox
 REM Install Vagrant
 choco install -y vagrant
 
+REM Change to local directory
+cd %~dp0
+
 REM Setup env
-vagrant up
+C:\HashiCorp\Vagrant\bin\vagrant up
