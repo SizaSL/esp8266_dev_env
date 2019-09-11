@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install necessary tools for esp8266
-sudo apt-get install -y make unrar-free autoconf automake libtool gcc g++ gperf \
+apt-get install -y make unrar-free autoconf automake libtool gcc g++ gperf \
     flex bison texinfo gawk ncurses-dev libexpat-dev python-dev python python-serial \
     sed git unzip bash help2man wget snap libtool-bin
 
