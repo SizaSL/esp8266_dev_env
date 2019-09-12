@@ -2,6 +2,3 @@
 * Run "env_setup_linux_local.sh" script with sudo for local setup in Ubuntu Linux machine
 * Run "env_setup_linux_vm.sh" script with sudo for VM setup in Ubuntu Linux machine
 * Run "env_setup_win_vm.bat" as administrator for VM setup in Windows machine
-
-## NOTE:
-Windows setup seems to quit when Vagrant command up. Remedy is run "vagrant up" from command line manually in folder.
