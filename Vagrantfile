@@ -69,5 +69,5 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", path: "provisioning/system_update.sh"
   config.vm.provision "shell", path: "provisioning/install_esp8266_tools.sh", privileged: false
-  config.vm.provision "shell", path: "provisioning/install_dev_tools.sh"
+  config.vm.provision "shell", path: "provisioning/install_dev_tools.sh", privileged: false
 end
